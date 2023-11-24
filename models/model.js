@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import {} from 'dotenv/config'
 
-export const uri = process.env.MONGO_URI
+export const uri = process.env.MONGO_URI;
 
 mongoose.connect(uri,{
     useNewUrlParser: true,
